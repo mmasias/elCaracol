@@ -32,3 +32,12 @@ El pozo se encuentra cerca de una carretera, y por día hay un 35% de probabilid
 En la localidad donde está situado el pozo, cada día existe un 5 % de probabilidad de lluvia fuerte, un 10% de probabilidad de lluvia media y un 85% de probabilidad de buen clima.  En caso de lluvia fuerte, el pozo se inunda y ve reducida su profundidad en 5 metros. En caso de lluvia débil, igualmente por el agua, el pozo ve reducida su profundidad en 2 metros.
 * Represente esta situación en el viaje del caracol.
 > En ninguno de los casos el caracol puede quedar debajo del agua o debajo de la profundidad del pozo
+## Sugerencias de presentación
+**Día 6:** El caracol ascendió 3.12 m, resbaló 1.81 m y al final del día está a -4.54 m de profundidad.
+![](./images/caracolASCII_dia6.png)
+
+**Día 26:** Llueve y pasa un coche. El pozo se ha llenado de agua y tiene ahora 12 metros de profundidad.
+![](./images/caracolASCII_dia26.png)
+
+**Dia 50:** El caracol no logró salir del pozo.
+![](./images/caracolASCII_dia50.png)
