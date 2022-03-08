@@ -6,7 +6,7 @@ Un caracol resbala y se cae en un pozo de 20 metros de profundidad, aterrizando 
 Desarrolle un programa que relate y grafique, día a día, las peripecias del caracol durante su intento de salida. Se debe indicar, entre otras cosas, la profundidad en la que está el caracol, el día, lo que ha subido por la mañana y lo que ha bajado por la noche. Asimismo, se ha de graficar en modo [ASCII](https://es.wikipedia.org/wiki/ASCII) el caracol en el pozo. 
 
 ### Algunos detalles...
-    Puede utilizar como referencia la tabla que se aporta debajo para la representación gráfica. Asimismo, simplifique la representación de la profundidad a valores enteros. Esto es, si la profundidad del caracol es -13.5413 represéntelo en la posición -13.
+Puede utilizar como referencia la tabla que se aporta debajo para la representación gráfica. Asimismo, simplifique la representación de la profundidad a valores enteros. Esto es, si la profundidad del caracol es -13.5413 represéntelo en la posición -13.
 
     |Personaje|Representación|
     --------------------------
