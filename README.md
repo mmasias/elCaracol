@@ -1,7 +1,7 @@
 # El caracol (version de don Ibuprofeno)
 
 ## Reto base
-Un caracol resbala y se cae en un pozo de 20 metros de profundidad, aterrizando en un saliente ubicado entre 10 y 20 metros. A partir de allí empieza su carrera por salir a la superficie, subiendo por las mañanas entre 1 y 4 metros, pero cayendo por las noches entre 0 y 2 metros.
+Un caracol resbala y se cae en un pozo de 30 metros de profundidad, aterrizando en un saliente ubicado entre 10 y 20 metros. A partir de allí empieza su carrera por salir a la superficie, subiendo por las mañanas entre 1 y 4 metros, pero cayendo por las noches entre 0 y 2 metros.
 
 Desarrolle un programa que relate y grafique, día a día, las peripecias del caracol durante su intento de salida. Se debe indicar, entre otras cosas, la profundidad en la que está el caracol, el día, lo que ha subido por la mañana y lo que ha bajado por la noche. Asimismo, se ha de graficar en modo [ASCII](https://es.wikipedia.org/wiki/ASCII) el caracol en el pozo. 
 
