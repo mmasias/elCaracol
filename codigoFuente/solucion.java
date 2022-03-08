@@ -1,5 +1,9 @@
 class elCaracol{
     public static void main(String[] args){
-        // Pufff, ya trabajé suficiente...
+        
+        for (int i=0;i<=20;i++){
+            System.out.println("[]        []");
+        }
+
     }
 }

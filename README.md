@@ -1,4 +1,4 @@
-# El caracol (version de don Ibuprofeno)
+# El caracol (version de don Ibuprofeno, 2022)
 
 ## Reto base
 Un caracol resbala y se cae en un pozo de 20 metros de profundidad, aterrizando en un saliente ubicado entre 10 y 20 metros. A partir de allí empieza su carrera por salir a la superficie, subiendo por las mañanas entre 1 y 4 metros, pero cayendo por las noches entre 0 y 2 metros.
