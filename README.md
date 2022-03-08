@@ -32,7 +32,30 @@ En la localidad donde está situado el pozo, cada día existe un 5 % de probabil
 > En ninguno de los casos el caracol puede quedar debajo del agua o debajo de la profundidad del pozo
 ## Sugerencias de presentación
 **Representación general del escenario**
-![](./images/caracolASCII.png)
+
+    [__]              [__]
+      []:. :. :. :. :.[] _ __ 0
+      []:. :. :. :. :.[] _ __ 1
+      []:. :. :. :. :.[] _ __ 2
+      []:. :. :. :. :.[] _ __ 3
+      []:. :. :. :. :.[] _ __ 4
+      []:. :. :. :. :.[] _ __ 5
+      []:. :. :. :. :.[] _ __ 6
+      []:. :. :. :. :.[] _ __ 7
+      []:. :. :. :. :.[] _ __ 8
+      []:. :. :. :. :.[] _ __ 9
+      []:. :. :. :. :.[] _ __ 10
+      []:. :. :. :. :.[] _ __ 11
+      []:. :. :. :. :.[] _ __ 12
+      []    _@)_/’    [] _ __ 13
+      []:. :. :. :. :.[] _ __ 14
+      []:. :. :. :. :.[] _ __ 15
+      []:. :. :. :. :.[] _ __ 16
+      []:. :. :. :. :.[] _ __ 17
+      []:. :. :. :. :.[] _ __ 18
+      []:. :. :. :. :.[] _ __ 19
+      []~~~~~~~~~~~~~~[] _ __ 20
+      [][][][][][][][][] 
 
 **Día 6:** El caracol ascendió 3.12 m, resbaló 1.81 m y al final del día está a -4.54 m de profundidad.
 ![](./images/caracolASCII_dia6.png)
