@@ -5,19 +5,17 @@ Un caracol resbala y se cae en un pozo de 20 metros de profundidad, aterrizando 
 
 Desarrolle un programa que relate y grafique, día a día, las peripecias del caracol durante su intento de salida. Se debe indicar, entre otras cosas, la profundidad en la que está el caracol, el día, lo que ha subido por la mañana y lo que ha bajado por la noche. Asimismo, se ha de graficar en modo ASCII el caracol en el pozo. 
 
-![](./images/caracolASCII.png)
+### Algunos detalles...
+    Puede utilizar como referencia la tabla que se aporta debajo para la representación gráfica. Asimismo, simplifique la representación de la profundidad a valores enteros. Esto es, si la profundidad del caracol es -13.5413 represéntelo en la posición -13.
 
-## NOTA
-Puede utilizar como referencia la tabla que se aporta debajo para la representación gráfica. Asimismo, simplifique la representación de la profundidad a valores enteros. Esto es, si la profundidad del caracol es -13.5413 represéntelo en la posición -13.
-
-|Personaje|Representación|
-|-|-|
-|Pared| [] |
-|Borde| [__] |
-|Fondo| :. |
-|Caracol| \_@)_/’ |
-|Agua| ~~~~ |
-|Coche| O---O |
+    |Personaje|Representación|
+    --------------------------
+    |Borde      |   [__]    |
+    |Pared      |   []      |
+    |Fondo      |   :.      |
+    |Caracol    |   _@)_/’  |
+    |Agua       |   ~~~~    |
+    |Coche      |   O---O   |
 
 ## Retos extendidos
 ### Cansancio
@@ -33,6 +31,9 @@ En la localidad donde está situado el pozo, cada día existe un 5 % de probabil
 * Represente esta situación en el viaje del caracol.
 > En ninguno de los casos el caracol puede quedar debajo del agua o debajo de la profundidad del pozo
 ## Sugerencias de presentación
+**Representación general del escenario**
+![](./images/caracolASCII.png)
+
 **Día 6:** El caracol ascendió 3.12 m, resbaló 1.81 m y al final del día está a -4.54 m de profundidad.
 ![](./images/caracolASCII_dia6.png)
 
