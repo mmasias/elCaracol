@@ -21,7 +21,7 @@ public class caracol{
              else if ( clima > 0.05 && clima <= 0.15){
                     profundidad = profundidad - 2;
                 }
-             if ( coche >=0.35){
+             if ( coche <=0.35){
                  altura = altura - 2;
              }
              altura = (altura + dia) - noche ;
