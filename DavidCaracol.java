@@ -25,7 +25,7 @@ public class DavidCaracol{
                 profundidad = profundidad + 5;    
                 System.out.println("Llovio fuertemente, la profundidad ha disminuido a ");
                 System.out.print(profundidad);        }
-             else if ( clima > 0.05 && clima <= 0.15){
+             else if ( clima > 0.05 && clima <= 0.20){
                     profundidad = profundidad + 2;
                     System.out.print("Llovio levemente, la profundidad ha disminuido a ");
                     System.out.println(profundidad);
@@ -56,7 +56,7 @@ public class DavidCaracol{
              if (clima <= 0.05){
                 System.out.println("//////////////////");
                 System.out.println("//////////////////");
-             } else if (clima > 0.05 && clima <= 0.15){
+             } else if (clima > 0.05 && clima <= 0.20){
                 System.out.println("::::::::::::::::::");
                 System.out.println("::::::::::::::::::");
              }
