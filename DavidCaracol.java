@@ -1,7 +1,7 @@
 public class DavidCaracol{
     public static void main(String[] args){
         int day = 1;
-        double altura= (Math.random() * 10) + 10;
+        double altura= (Math.random() * 10);
         double dia;
         double noche;
         double coche = Math.random();
