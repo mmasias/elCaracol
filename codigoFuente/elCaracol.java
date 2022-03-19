@@ -60,7 +60,7 @@ class elCaracol{
             }
 
             System.out.println("Dia ["+dia+"] / Caracol en ["+profundidadCaracol+"]");
-            System.out.println((elClima<0.15)?cielo:cieloLluvioso);
+            System.out.println((elClima>0.15)?cielo:cieloLluvioso);
             System.out.println(hayCoche?bordePozoConCoche:bordePozo);
             for (int i=0;i<=profundidadPozo;i++){
                 if (i==profundidadCaracol) {
