@@ -37,17 +37,17 @@ public class CaracolSergio{
             }
 
             String c = "";
-			if(carro<0.35){c = "SI";}else{c = "NO";}
+			if(carro<0.35){c = "Si";}else{c = "No";}
 			String cl = "";
 			if(clima<=0.05){cl = "Lluvia fuerte";}else if(clima > 0.05 && clima <= 0.15){cl = "Lluvia";}else{cl="Soleado";}
-			System.out.println("dia: ["+dias+"] / Sube: ["+sube+"] / Baja: ["+cae+"] / Altura: ["+caracolsube+"] / Coche: [" + c + "] / Clima: ["+cl+"]");
+			System.out.println("Día: ["+dias+"] / Sube: ["+sube+"] / Baja: ["+cae+"] / Altura: ["+caracolsube+"] / Coche: [" + c + "] / Clima: ["+cl+"]");
 			System.out.println(" ");
             siguente.nextLine();
 
 
         }while(caracolsube < 20 && dias < 50);
 		if(dias >= 50 && caracolsube < 20){
-			System.out.println("el caracol se murio ");
+			System.out.println("El caracol se murio y no pudo salir sel pozo");
         }if(caracolsube <= 20){
             System.out.println("El caracol logró salir al mundo exteriror");
         }
