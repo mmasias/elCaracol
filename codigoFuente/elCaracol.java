@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class elCaracol{
     public static void main(String[] args){
         
@@ -12,12 +13,16 @@ class elCaracol{
         boolean estaVivo = true;
         boolean estaDentro=true;
 
+        final String cielo = ".  . .  . .  . .  . .  . ";
+        final String cieloLluvioso = "!  ! !  ! !  ! !  ! !  ! ";
         final String bordePozo = "[===]               [===]";
         final String bordePozoConCoche = "[===]    Oo-oO      [===]"; 
         final String pozo = "  [=]:. :. :. :. :. [=]";
         final String elCaracol = "  [=]   _(@;_/'     [=]";
         final String pozoAgua = "  [=]~~~~~~~~~~~~~~~[=]";
         final String fondoPozo = "  [=][=][=][=][=][=][=]";
+
+        Scanner entrada = new Scanner(System.in);
 
         do {
             dia = dia + 1;
@@ -50,9 +55,12 @@ class elCaracol{
                 profundidadCaracol = (profundidadPozo-profundidadAgua)-1;
             }
             if (profundidadCaracol<=0) {
+                profundidadCaracol=0;
                 estaDentro = false;
             }
 
+            System.out.println("Dia ["+dia+"] / Caracol en ["+profundidadCaracol+"]");
+            System.out.println((elClima<0.15)?cielo:cieloLluvioso);
             System.out.println(hayCoche?bordePozoConCoche:bordePozo);
             for (int i=0;i<=profundidadPozo;i++){
                 if (i==profundidadCaracol) {
@@ -65,7 +73,8 @@ class elCaracol{
                 System.out.println(" _ ___ " + i);
             }
             System.out.println(fondoPozo);
-            System.out.println();
+            
+            entrada.nextLine();
         } while (estaDentro && estaVivo);
 
         System.out.print("El dia ["+dia+"] ");
