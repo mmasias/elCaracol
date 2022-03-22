@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class reflexionesCaracol{
     public static void main(String[] args){
 
+        //Variable de entrada
+        
         Scanner entrada = new Scanner(System.in); 
         
         
