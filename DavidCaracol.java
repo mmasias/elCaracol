@@ -72,7 +72,7 @@ public class DavidCaracol{
                     System.out.println("[].:.:.:.:.:.:.:[] _ ___ " +x);
                  }
              }
-                System.out.println("[][-][-]-[-][-][]");
+                System.out.println("[][-][-]--[-][-][]");
         } if (day > 50){
             System.out.println("El caracol ha muerto...");
         }
