@@ -14,11 +14,11 @@ public class DavidCaracol{
             System.out.print(" Dia = ");
              System.out.println(day);
             if (day >=10 && day <20 ){
-                dia = Math.random() * 3 + 1;
-            } else if ( day >=20){
                 dia = Math.random() * 2 + 1;
+            } else if ( day >=20){
+                dia = Math.random() + 1;
             } else {
-                dia = Math.random() * 4 + 1;
+                dia = Math.random() * 3 + 1;
             }
             noche = Math.random() * 2;
             if ( clima <= 0.05){
