@@ -14,11 +14,11 @@ public class DavidCaracol{
             System.out.print(" Dia = ");
              System.out.println(day);
             if (day >=10 && day <20 ){
-                dia = Math.random() * 3;
+                dia = Math.random() * 2 + 1;
             } else if ( day >=20){
-                dia = Math.random() * 2;
+                dia = Math.random() + 1;
             } else {
-                dia = Math.random() * 4;
+                dia = Math.random() * 3 + 1;
             }
             noche = Math.random() * 2;
             if ( clima <= 0.05){
@@ -33,7 +33,8 @@ public class DavidCaracol{
              if ( coche <=0.35){
                  altura = altura - 2;
              }
-             altura = altura + dia - noche ;
+             altura = altura + dia;
+             altura = altura - noche;
              if (altura < profundidad){
                  altura = profundidad + 1;
                  System.out.print("El caracol ha flotado hasta");
@@ -72,7 +73,7 @@ public class DavidCaracol{
                     System.out.println("[].:.:.:.:.:.:.:[] _ ___ " +x);
                  }
              }
-                System.out.println("[][-][-]-[-][-][]");
+                System.out.println("[][-][-]--[-][-][]");
         } if (day > 50){
             System.out.println("El caracol ha muerto...");
         }
